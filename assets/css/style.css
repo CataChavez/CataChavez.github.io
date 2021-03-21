@@ -1,0 +1,59 @@
+#greyText{
+    color: #afb2bf;
+}
+.unstyle-list{
+    padding-left: 0;
+    list-style: none;
+}
+
+.social-banner ul li{
+    margin-top: 35px;
+    display: inline-block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.profile-img{
+    border: 10px solid #f1c40f;
+    border-radius: 50%;
+    padding: 5px;
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    vertical-align: center;
+}
+
+#home{
+    display: flex;
+    align-items: center;
+    min-height: 100%;
+    background-color: #343a40;
+    color: #afb2bf;
+    height: 650px;
+    overflow: hidden;
+}
+
+#scroll-up-icon{
+    right: 30px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 70px;
+    z-index: 99;
+    transition: 1.5s ease;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+#soft-skills{
+    padding: 90px;
+}
+
+.section-title{
+    margin-bottom: 25px;
+    text-align: left;
+}
+
