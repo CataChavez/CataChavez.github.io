@@ -50,10 +50,24 @@
 
 #soft-skills, #hard-skills{
     padding: 90px;
+    height: 650px;
 }
 
 .section-title{
     margin-bottom: 25px;
     text-align: left;
+}
+
+.tecnicalSkills{
+    border: 1px;
+    border-color: #f1c40f;
+    padding: 40px 30px;
+    border-radius: 0;
+    box-sizing: border-box;
+    
+}
+
+#projects{
+    height: 650px;
 }
 
