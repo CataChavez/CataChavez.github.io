@@ -18,8 +18,8 @@
 }
 
 .profile-img{
-    border: 10px solid #f1c40f;
-    border-radius: 50%;
+    border: 1px solid #f1c40f;
+    border-radius: 20%;
     padding: 5px;
     max-width: 100%;
     height: auto;
@@ -33,9 +33,10 @@
     min-height: 100%;
     background-color: #343a40;
     color: #afb2bf;
-    height: 650px;
+    height: auto;
     overflow: hidden;
-}
+    padding: 90px;
+    }
 
 #scroll-up-icon{
     right: 30px;
@@ -49,9 +50,9 @@
     outline: none;
 }
 
-#soft-skills, #hard-skills, #tiAndArq{
+#soft-skills, #hard-skills, #tiAndArq, #projects{
     padding: 90px;
-    height: 650px;
+    height: auto;
 }
 
 .section-title{
@@ -68,12 +69,12 @@
     
 }
 
-#projects{
-    height: 650px;
-}
-
 .card-text{
     font-size: small;
     font-weight: lighter;
 }
 
+.computer{
+    margin-top: 35px;
+    display: inline-block;
+}
