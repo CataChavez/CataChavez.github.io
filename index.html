@@ -1,46 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./assets/css/style.css">
-	<link rel="stylesheet" href="./assets/css/GoogleFonts.css">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/GoogleFonts.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ <script src="/assets/js/jquery.js"></script>
 
-
-  <script src="/assets/js/axios.js"></script>
-	<script src="/assets/js/jquery.js"></script>
-
-	<title>CataChavez</title>	
+  <title>CataChavez</title>
 </head>
+
 <body data-aos-easing="ease" data-aos-duration="5000" data-aos-delay="0">
-  <!--Scroll-up button-->
-  <button>
-    <span style="color:#f1c40f;">
-      <i class="fa fa-angle-up scroll-up-icon "></i>
-    </span>
-  </button>
   <!--Header-->
   <header>
     <!--NavBar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="greyText">
-        <div class="container-fluid">
-          <a class="navbar-brand" style="color: #f1c40f;" href="index.html">CATHERINE</a>
-          <div class="">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" id="greyText">
+      <div class="container-fluid">
+        <a class="navbar-brand" style="color: #f1c40f;" href="index.html">CATHERINE</a>
+        <div class="">
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#home">HOME</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
                   APTITUDES
                 </a>
                 <ul class="dropdown-menu bg-dark" id="greyText" aria-labelledby="navbarDropdown">
@@ -48,7 +45,7 @@
                   <li><a class="dropdown-item bg-dark" id="greyText" href="#hard-skills">Habilidades técnicas</a></li>
                 </ul>
               </li>
-              
+
               <li class="nav-item">
                 <a class="nav-link" href="#projects">PROYECTOS</a>
               </li>
@@ -60,35 +57,43 @@
               <li class="nav-item">
                   <a class="nav-link" href="#">FORMACIÓN</a>
                 </li> -->
-                <li class="nav-item">
-                  <a class="nav-link" href="#tiAndArq">TI Y ARQ</a>
-                </li>
-              </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="#tiAndArq">TI Y ARQ</a>
+              </li>
+            </ul>
           </div>
     </nav>
   </header>
-<!--Home-->
-  <section id="home" class="bg-dark">
+  <!--Home-->
+  <section id="home" class="bg-dark py-4 mt-5">
     <div class="container">
-      <div class="row align-items-center">
-        <div class="col-md-7 text-lg-left ">
-          <h2 data-aos="fade-in" data-aos-duration="2000"  style="color: #f1c40f;">Hola, soy</h2>
-          <h2 class="mb-0 d-block d-lg-block" data-aos="fade-in" data-aos-duration="2000">
+      <div class="row">
+        <div class="col-12 col-md-6 text-start order-md-1 p-5" data-aos="fade-in" data-aos-duration="3000">
+          <img class="profile-img" class="img-fluid mb-4 mb-md-0" src="./assets/img/1.jpg" alt="portfolio img">
+        </div>
+        <div class="col-12 col-md-6 text-center text-md-start align-self-md-center p-5">
+          <h2 class="display-5 font-weight-bold" data-aos="fade-in" data-aos-duration="2000" style="color: #f1c40f;">
+            Hola, soy</h2>
+          <h2 class="" data-aos="fade-in" data-aos-duration="2000">
             Catherine Chávez
           </h2>
           <!--Presentation-->
           <h5 class="py-2" style="color: #f1c40f;" data-aos="fade-in" data-aos-duration="2000">Full Stack Developer</h5>
-          <p data-aos="fade-in" data-aos-duration="2000">Desarrolladora Junior Full Stack en lenguaje JavaScript, 
-            con conocimientos para el desarrollo y mantención de aplicaciones web, además de poseer conocimientos básicos de lenguaje SQL.  
-            <br> Creativa, colaborativa, me gusta observar los procesos e identificar oportunidades de mejora en ellos, pero por sobre todo me considero un agente de cambio.
+          <p data-aos="fade-in" data-aos-duration="2000">Desarrolladora Junior Full Stack en lenguaje JavaScript,
+            con conocimientos para el desarrollo y mantención de aplicaciones web, además de poseer conocimientos
+            básicos de lenguaje SQL.
+            <br> Creativa, colaborativa, me gusta observar los procesos e identificar oportunidades de mejora en ellos,
+            pero por sobre todo me considero un agente de cambio.
             Con distintas herramientas de gestión estándar ISO.
-            <br> Me gusta buscar soluciones, desarrollar nuevos conocimientos y aprender nuevas herramientas, todo esto para enfrentar los nuevos desafíos propuestos.
-            </p>
+            <br> Me gusta buscar soluciones, desarrollar nuevos conocimientos y aprender nuevas herramientas, todo esto
+            para enfrentar los nuevos desafíos propuestos.
+          </p>
           <!--Social Banner-->
           <div class="social-banner">
             <ul class="unstyle-list banner-icon">
               <li class="whatsapp" data-aos="fade-in" data-aos-duration="1000">
-                <a title="WhatsApp" href="https://api.whatsapp.com/send?phone=+56992007009&text=Hola, visité tu página y me interesaría comunicarme contigo">
+                <a title="WhatsApp"
+                  href="https://api.whatsapp.com/send?phone=+56992007009&text=Hola, visité tu página y me interesaría comunicarme contigo">
                   <span style="color: #f1c40f;">
                     <i class="fab fa-whatsapp fa-2x"></i>
                   </span>
@@ -118,259 +123,319 @@
             </ul>
           </div>
         </div>
-        <div class="col-md-auto" class="profile-img" data-aos="fade-left" data-aos-duration="3000">
-          <img src="./assets/img/1.jpg" alt="portfolio img" class="profile-img">
-        </div>
       </div>
     </div>
   </section>
-<!--Softs Skills-->
-  <section id="soft-skills">
+  <!--Softs Skills-->
+  <section id="soft-skills" class="py-3 mt-5">
     <div class="container">
-      <div class="row justify-content-center">
+      <div class="row">
         <!-- Soft skill paragraph-->
-        <div class="col-md-7 col-12">
+        <div class="col-12 col-md-6 text-center text-md-start align-md-center">
           <div class="skills">
             <h5 class="section-title" data-aos="fade-up" data-aos-duration="3000" style="color: #f1c40f;">APTITUDES</h5>
-            <h2  class="section-subtitle" class="aos-animate" data-aos="fade-up" data-aos-duration="3000">Habilidades Blandas</h2>
+            <h2 class="section-subtitle" class="aos-animate" data-aos="fade-up" data-aos-duration="3000">Habilidades
+              Blandas</h2>
             <p data-aos="fade-up" data-aos-duration="3000">
-              Desde que inicie en el mundo laboral, he podido desarrollar y fomentar distintas habilidades blandas, necesarias
+              Desde que inicie en el mundo laboral, he podido desarrollar y fomentar distintas habilidades blandas,
+              necesarias
               para desenvolverme tanto en equipos de trabajos como en distintas empresas.
-              <br>Me considero una "Team Player" por lo que creo en la colaboración y en los espacios de trabajo que valoren la
+              <br>Me considero una "Team Player" por lo que creo en la colaboración y en los espacios de trabajo que
+              valoren la
               confianza, la inclusión y el respeto.
-              <br>Busco constantemente la oportunidad de mejorar, promuevo la cultura de cambio, me gusta buscar soluciones y tecnologías
+              <br>Busco constantemente la oportunidad de mejorar, promuevo la cultura de cambio, me gusta buscar
+              soluciones y tecnologías
               que nos permitan hacer más eficiente los procesos.
             </p>
           </div>
-          </div>
-          <!--Soft skills ProgressBars-->
-          <div class="col-md-auto" data-aos="fade-left" data-aos-duration="3000">
-            <ul class="unstyle-list" class="skills-list">
-              
-              <li class="py-1">Adaptación, innovación, proactividad</li> 
-              <div class="progress">
-                <div id="sf1" class="progress-bar bg-warning" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-              <li class="py-1">Habilidades de comunicación</li>
-              <div class="progress">
-                <div class="progress-bar bg-warning" role="progressbar" style="width: 70%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-              <li >Creatividad</li>
-              <div class="progress">
-                <div class="progress-bar bg-warning" role="progressbar" style="width: 95%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-              <li >Participación en equipos multidisciplinarios</li>
-              <div class="progress">
-                <div class="progress-bar bg-warning" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-              <li >Liderazgo</li>
-              <div class="progress">
-                <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-              <li >Herramientas de gestión</li>
-              <div class="progress">
-                <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-              <li >Capacidad de trabajo autónomo</li>
-              <div class="progress">
-                <div class="progress-bar bg-warning" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-              <li >Capacidad de organización y decisión</li>
-              <div class="progress">
-                <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </ul>
-          </div>          
-      </div>
-    </div>
-  </section>
-<!--Hard Skills-->
-  <section id="hard-skills">
-    <div class="container">
-      <div class="row justify-content-center">
-        <!--Hard skill paragraph-->
-        <div class="col-md-12 col-12">
-          <div class="skills">
-            <h5 class="section-title" data-aos="fade-up" data-aos-duration="3000" style="color: #f1c40f;">APTITUDES</h5>
-            <h2  class="section-subtitle" class="aos-animate" data-aos="fade-up" data-aos-duration="3000">Habilidades Técnicas</h2>
-            <p data-aos="fade-up" data-aos-duration="3000">
-              Soy FullStack Developer con JavaScript, con conocimientos en lenguajes HTML5, CSS3, SQL. Para ocupar  Además
-              mi entorno de ejecución para codear es NodeJS y ocupo, como sistema de gestión de paquetes, NPM. Para complementar el Stack manejo framework ExpressJS.
-              <br> 
+        </div>
+        <!--Soft skills ProgressBars-->
+        <div class="col-12 col-md-6 py-3" data-aos="fade-left" data-aos-duration="3000">
+          <ul class="unstyle-list" class="skills-list">
 
-            </p>
-          </div>
-        </div>    
-        <!--Hard Skills icons-->
-        <div class="card text-center bg-warning" class="tecnicalSkills" data-aos="fade-up" data-aos-duration="3000">
-              <div class="card-body:">
-                <ul class="unstyle-list" class="skills-list">
-                  <li>
-                    <i title="JavaScript" class="fab fa-js fa-3x"></i>
-                    <i title="HTML5" class="fab fa-html5 fa-3x"></i>
-                    <i title="CSS3" class="fab fa-css3-alt fa-3x"></i>
-                    <i title="SQL" class="fas fa-database fa-3x"></i>
-                    <i title="NodeJS" class="fab fa-node fa-3x"></i>
-                    <i title="npm"class="fab fa-npm fa-3x py-2"></i>
-                    <i title="ExpresJS"><img src="./assets/img/express.png" alt=""></i>
-                    <i title="Bootstrap" class="fab fa-bootstrap fa-3x py-2"></i>
-                    <i title="PostgreSQL"><img src="./assets/img/psql.png" alt=""></i>
-                    <i title="VSCode"><img src="./assets/img/vsc.png" alt=""></i>
-                    <i title="GIT"class="fab fa-git-alt fa-3x py-2"></i>
-                    <i title="English"><img src="./assets/img/english.png" alt=""></i>
-                  </li>
-                </ul>
-              </div>
-        </div>      
+            <li class="py-1">Adaptación, innovación, proactividad</li>
+            <div class="progress">
+              <div id="sf1" class="progress-bar bg-warning" role="progressbar" style="width: 90%" aria-valuenow="75"
+                aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <li class="py-1">Habilidades de comunicación</li>
+            <div class="progress">
+              <div class="progress-bar bg-warning" role="progressbar" style="width: 70%" aria-valuenow="75"
+                aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <li>Creatividad</li>
+            <div class="progress">
+              <div class="progress-bar bg-warning" role="progressbar" style="width: 95%" aria-valuenow="75"
+                aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <li>Participación en equipos multidisciplinarios</li>
+            <div class="progress">
+              <div class="progress-bar bg-warning" role="progressbar" style="width: 90%" aria-valuenow="75"
+                aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <li>Liderazgo</li>
+            <div class="progress">
+              <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="75"
+                aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <li>Herramientas de gestión</li>
+            <div class="progress">
+              <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="75"
+                aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <li>Capacidad de trabajo autónomo</li>
+            <div class="progress">
+              <div class="progress-bar bg-warning" role="progressbar" style="width: 90%" aria-valuenow="75"
+                aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <li>Capacidad de organización y decisión</li>
+            <div class="progress">
+              <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="75"
+                aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </ul>
+        </div>
       </div>
     </div>
   </section>
-<!--Proyects-->
-  <section id="projects" class="bg-dark">
+  <!--Hard Skills-->
+  <section id="hard-skills" class="py-4 mt-5">
     <div class="container">
       <div class="row">
-        <div class="row justify-content-center">
-          <div class="col-md-12" style="padding-top: 3%;">
-            <h5 class="section-title" data-aos="fade-up" data-aos-duration="3000" style="color: #f1c40f;">PROYECTOS</h5>
-          </div>
-          <!-- Projects Card Group"-->
-          <div class="row row-cols-1 row-cols-md-4 g-4"  data-aos="fade-left" data-aos-duration="2000">
-              <!-- Tarjeta de App "User System"--> 
-            <div class="col">
-              <div class="card">
-                <div class="card bg-dark text-white border-dark">
-                  <span style="color: teal; align-self: center;">
-                    <i class="fas fa-users fa-4x py-2"></i>
-                  </span>
-                  <div class="card-text-center">
-                    <div class="card-body">
-                      <h6 class="card-title" class="theme-link" style="color: #f1c40f;">Sistema de Usuarios</h6>
-                      <p class="card-text">WebApp Sistema de Usuarios creada con React y JavaScript.
-                        <br>Hace un llamado a una Free fake API, llamada {JSON} Placeholder, específicamente al recurso de usuarios.
-                        <br>Fue implementada con Redux para llamadas asíncronas, React-thunk como middleware, React Router Dom y también con implementación de Hooks y estados.
-                      </p>
-                      <a href="https://gifted-benz-c17901.netlify.app" class="card-link">Ir></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-             <!-- Tarjeta de App "Carro de Compras"-->
-            <div class="col">
-              <div class="card">
-                <div class="card bg-dark text-white border-dark">
-                  <img src="/assets/img/huertilizate.png" alt="Huertilizate" class="card-img-top p-2">
-                  <div class="card-text-center">
-                    <div class="card-body">
-                      <h6 class="card-title" class="theme-link" style="color: #f1c40f;">Huertilizate</h5>
-                      <p class="card-text">WebApp Carrito de Compras tienda Huertilizate.
-                        <br>Esta App fue realizada como ejercicio para el aprendizaje de React. 
-                        <br>Por el momento la App permite agregar productos al carrito y descontar del stock.
-                      </p>
-                      <a href="https://epic-euler-9c9e91.netlify.app" class="card-link">Ir></a>
-                    </div>
-                  </div>
-                </div>
-              </div>              
-            </div>
-             <!-- Tarjeta de App "Consulta a PokeApi"-->
-            <div class="col">
-              <div class="card">
-                <div class="card bg-dark text-white border-dark">
-                  <img src="/assets/img/pokeapi_256.png" alt="PokeApi image" class="card-img-top p-2">
-                  <div class="card-text-center">
-                    <div class="card-body">
-                      <h6 class="card-title" class="theme-link" style="color: #f1c40f;">PokeApi</h5>
-                      <p class="card-text">WebApp responsiva que consulta la Api de Pokemon, elige un número de pokemon entre 1 y 893.
-                        <br>Se realiza el llamado a la api y se obtienen datos mediante Ajax. 
-                        <br>Para renderizar el gráfico se ocupó CanvasJs.
-                      </p>
-                      <a href="https://catachavez.github.io/PokeApi/" class="card-link">Ir></a>
-                    </div>
-                  </div>
-                </div>
-              </div>              
-            </div>
-            <!-- Tarjeta de App "Sugerencias de Video"--> 
-            <div class="col">
-              <div class="card">
-                <div class="card bg-dark text-white border-dark">
-                  <img src="" alt="" class="card-img-top p-2">
-                  <span style="color: teal; align-self: center;">
-                    <i class="fas fa-video fa-4x py-2"></i>
-                  </span>
-                  <div class="card-text-center">
-                    <div class="card-body">
-                      <h6 class="card-title" class="theme-link" style="color: #f1c40f;">Sugerencias de Videos</h6>
-                      <p class="card-text">App estatica, con carga de contenido media.
-                      </p>
-                      <a href="https://catachavez.github.io/Video-suggestions/" class="card-link">Ir></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- Tarjeta de App "Rick And Morty"--> 
-            <div class="col">
-              <div class="card">
-                <div class="card bg-dark text-white border-dark">
-                  <img src="./assets/img/1200px-Rick_and_Morty.svg.png" alt="Title: RickAndMorty" class="card-img-top p-2">
-                  <div class="card-text-center">
-                    <div class="card-body">
-                      <h6 class="card-title" class="theme-link" style="color: #f1c40f;">Rick And Morty</h6>
-                      <p class="card-text">Otra WebApp responsiva, esta vez realiza la consulta a la Api de Rick And Morty. Presiona sobre la foto y obtendrás información sobre cada personaje. 
-                      </p>
-                      <a href="https://catachavez.github.io/Api-RikAndMorty/" class="card-link">Ir></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>                          
-          </div>
-        </div>
+        <!--Hard skill paragraph-->
+        <div class="col-12 text-center text-md-start align-md-center">
+          <div class="skills">
+            <h5 class="section-title" data-aos="fade-up" data-aos-duration="3000" style="color: #f1c40f;">APTITUDES</h5>
+            <h2 class="section-subtitle" class="aos-animate" data-aos="fade-up" data-aos-duration="3000">Habilidades
+              Técnicas</h2>
+            <p data-aos="fade-up" data-aos-duration="3000">
+              Soy FullStack Developer con JavaScript, con conocimientos en lenguajes HTML5, CSS3, SQL. Para ocupar
+              Además
+              mi entorno de ejecución para codear es NodeJS y ocupo, como sistema de gestión de paquetes, NPM. Para
+              complementar el Stack manejo framework ExpressJS.
+              <br>
 
-      </div>
-      
-    </div>
-  </section>
-    
-  <!--TI Y ARQ-->
-  <section id="tiAndArq">
-    <div class="container">
-      <div class="row justify-content-center">
-      <div class="col-md" data-aos="fade-left" data-aos-duration="3000">
-        <span style="color: #f1c40f;" class="computer">
-          <i class="fas fa-laptop-code fa-7x"></i>
-        </span>
-      </div>
-        <div class="col-md-10 col-12">
-          <div class="ti">
-            <h5 class="section-title" data-aos="fade-up" data-aos-duration="3000" style="color: #f1c40f;">TI Y ARQ</h5>
-            <h2 class="section-subtitle" class="aos-animate" data-aos="fade-up" data-aos-duration="3000">Programación/Arquitectura?</h2>
-            <!--TI/Arq Paragrapht-->
-            <p class="" data-aos="fade-up" data-aos-duration="3000">
-              La formación propia del arquitecto, permite el trabajo multidisciplinario y la capacidad de organización 
-              de distintas áreas relacionadas con un proyecto. 
-              <br> La arquitectura me ha dado la capacidad de desarrollo profesional independiente, 
-              la necesidad de estar constantemente en aprendizaje y de adaptación a los distintos escenarios y tiempos. 
-              Todo lo anterior, junto con las propias habilidades adquiridas, me permiten ser un 
-              profesional que lidera grupos de trabajo, pero que también trabaja en equipo, 
-              con el fin de búsqueda, de soluciones innovadoras para desafíos ya en marcha como también aquellos que emergen.
             </p>
           </div>
         </div>
-        <div class="col-md-7 col-sm-3 col-12 col-align-self-end" data-aos="fade-up" data-aos-duration="3000">
-          <img src="./assets/img/kisspng-cityscape-skyline-illustration-vector-city-silhouette-5aa2f7cb4582e2.5830158415206297072847.png" alt="img city-skyline" srcset="" class="d-none d-lg-block">
+        <!--Hard Skills icons-->
+        <div class="row text-center" data-aos="fade-up" data-aos-duration="3000">
+          <div class="col-4 col-md-2 p-2">
+            <i title="JavaScript" class="fab fa-js fa-3x"></i>
+          </div>
+          <div class="col-4 col-md-2 p-2">
+            <i title="HTML5" class="fab fa-html5 fa-3x"></i>
+          </div>
+          <div class="col-4 col-md-2 p-2">
+            <i title="CSS3" class="fab fa-css3-alt fa-3x"></i>
+          </div>
+          <div class="col-4 col-md-2 p-2">
+            <i title="React" class="fab fa-react fa-3x"></i>
+          </div>
+          <div class="col-4 col-md-2 p-2">
+            <i title="SQL" class="fas fa-database fa-3x"></i>
+          </div>
+          <div class="col-4 col-md-2 p-2">
+            <i title="NodeJS" class="fab fa-node fa-3x"></i>
+          </div>
+          <div class="col-4 col-md-2 p-2">
+            <i title="npm" class="fab fa-npm fa-3x py-2"></i>
+          </div>
+          <div class="col-4 col-md-2 p-2">
+            <i title="ExpresJS"><img src="./assets/img/express.png" alt=""></i>
+          </div>
+          <div class="col-4 col-md-2 p-2">
+            <i title="Bootstrap" class="fab fa-bootstrap fa-3x py-2"></i>
+          </div>
+          <div class="col-4 col-md-2 p-2">
+            <i title="PostgreSQL"><img src="./assets/img/psql.png" alt=""></i>
+          </div>
+          <div class="col-4 col-md-2 p-2">
+            <i title="VSCode"><img src="./assets/img/vsc.png" alt=""></i>
+          </div>
+          <div class="col-4 col-md-2 p-2">
+            <i title="GIT" class="fab fa-git-alt fa-3x py-2"></i>
+          </div>
+          <div class="col-4 col-md-2 p-2">
+            <i title="English"><img src="./assets/img/english.png" alt=""></i>
+          </div>
+        </div>
+
+
+        <div>
+          <div class="card-body:">
+            <ul class="unstyle-list" class="skills-list">
+              <li>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
-  </section>    
+  </section>
+  <!--Proyects-->
+  <section id="projects" class="bg-dark py-4">
+    <div class="container">
+      <div class="display-4 font-weight-bold text-center pb-4" style="padding-top: 3%;">
+        <h5 class="section-title" data-aos="fade-up" data-aos-duration="3000" style="color: #f1c40f;">PROYECTOS</h5>
+      </div>
+      <!-- Projects Card Group"-->
+      <div class="row text-md-start" data-aos="fade-left" data-aos-duration="2000">
+        <!-- Tarjeta de App "User System"-->
+        <article class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-0">
+          <div class="card">
+            <span class="card-img-top h-100 text-center" style="color: teal;">
+              <i class="fas fa-users fa-4x py-2"></i>
+            </span>
+            <div class="card bg-dark text-white border-dark">
+              <div class="card-text-center">
+                <div class="card-body">
+                  <h6 class="card-title" class="theme-link" style="color: #f1c40f;">Sistema de Usuarios</h6>
+                  <p class="card-text">WebApp Sistema de Usuarios creada con React y JavaScript.
+                    <br>Hace un llamado a una Free fake API, llamada {JSON} Placeholder, específicamente al recurso de
+                    usuarios.
+                    <br>Fue implementada con Redux para llamadas asíncronas, React-thunk como middleware, React Router
+                    Dom y también con implementación de Hooks y estados.
+                  </p>
+                  <a class="btn btn-primary" href="https://gifted-benz-c17901.netlify.app" class="card-link">Ver
+                    Proyecto</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- Tarjeta de App "Carro de Compras"-->
+        <article class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-0">
+          <div class="card">
+            <div class="card bg-dark text-white border-dark">
+              <img class="card-img-top h-100" src="/assets/img/huertilizate.png" alt="Huertilizate">
+              <div class="card-text-center">
+                <div class="card-body">
+                  <h6 class="card-title" class="theme-link" style="color: #f1c40f;">Huertilizate</h5>
+                    <p class="card-text">WebApp Carrito de Compras tienda Huertilizate.
+                      <br>Esta App fue realizada como ejercicio para el aprendizaje de React.
+                      <br>Por el momento la App permite agregar productos al carrito y descontar del stock.
+                    </p>
+                    <a class="btn btn-primary" href="https://epic-euler-9c9e91.netlify.app" class="card-link">Ver
+                      Proyecto</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- Tarjeta de App "Consulta a PokeApi"-->
+        <article class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-0">
+          <div class="card">
+            <div class="card bg-dark text-white border-dark">
+              <img class="card-img-top h-100 text-center" src="/assets/img/pokeapi_256.png" alt="PokeApi image">
+              <div class="card-text-center">
+                <div class="card-body">
+                  <h6 class="card-title" class="theme-link" style="color: #f1c40f;">PokeApi</h5>
+                    <p class="card-text">WebApp responsiva que consulta la Api de Pokemon, elige un número de pokemon
+                      entre 1 y 893.
+                      <br>Se realiza el llamado a la api y se obtienen datos mediante Ajax.
+                      <br>Para renderizar el gráfico se ocupó CanvasJs.
+                    </p>
+                    <a class="btn btn-primary" href="https://catachavez.github.io/PokeApi/" class="card-link">Ver
+                      Proyecto</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- Tarjeta de App "Sugerencias de Video"-->
+        <article class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-0">
+          <div class="card">
+            <div class="card bg-dark text-white border-dark">
+              <span class="card-img-top h-100 text-center" style="color: teal;">
+                <i class="fas fa-video fa-4x py-2"></i>
+              </span>
+              <div class="card-text-center">
+                <div class="card-body">
+                  <h6 class="card-title" class="theme-link" style="color: #f1c40f;">Sugerencias de Videos</h6>
+                  <p class="card-text">App estatica, con carga de contenido media.
+                  </p>
+                  <a class="btn btn-primary" href="https://catachavez.github.io/Video-suggestions/"
+                    class="card-link">Ver Proyecto</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- Tarjeta de App "Rick And Morty"-->
+        <article class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-0">
+          <div class="card">
+            <div class="card bg-dark text-white border-dark">
+              <img class="card-img-top h-100 text-center" src="./assets/img/1200px-Rick_and_Morty.svg.png"
+                alt="Title: RickAndMorty">
+              <div class="card-text-center">
+                <div class="card-body">
+                  <h6 class="card-title" class="theme-link" style="color: #f1c40f;">Rick And Morty</h6>
+                  <p class="card-text">Otra WebApp responsiva, esta vez realiza la consulta a la Api de Rick And Morty.
+                    Presiona sobre la foto y obtendrás información sobre cada personaje.
+                  </p>
+                  <a class="btn btn-primary" href="https://catachavez.github.io/Api-RikAndMorty/" class="card-link">Ver
+                    Proyecto</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
 
-  
+    </div>
+
+    </div>
+  </section>
+
+  <!--TI Y ARQ-->
+  <section id="tiAndArq" class="py-4 mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-4 text-center p-5" data-aos="fade-left" data-aos-duration="3000">
+          <span style="color: #f1c40f;" class="computer">
+            <i class="fas fa-laptop-code fa-7x"></i>
+          </span>
+        </div>
+        <div class="col-12 col-md-8 text-md-start p-5">
+          <div class="ti">
+            <h5 class="section-title" data-aos="fade-up" data-aos-duration="3000" style="color: #f1c40f;">TI Y ARQ</h5>
+            <h2 class="section-subtitle" class="aos-animate" data-aos="fade-up" data-aos-duration="3000">
+              Programación/Arquitectura?</h2>
+            <!--TI/Arq Paragrapht-->
+            <p class="" data-aos="fade-up" data-aos-duration="3000">
+              La formación propia del arquitecto, permite el trabajo multidisciplinario y la capacidad de organización
+              de distintas áreas relacionadas con un proyecto.
+              <br> La arquitectura me ha dado la capacidad de desarrollo profesional independiente,
+              la necesidad de estar constantemente en aprendizaje y de adaptación a los distintos escenarios y tiempos.
+              Todo lo anterior, junto con las propias habilidades adquiridas, me permiten ser un
+              profesional que lidera grupos de trabajo, pero que también trabaja en equipo,
+              con el fin de búsqueda, de soluciones innovadoras para desafíos ya en marcha como también aquellos que
+              emergen.
+            </p>
+          </div>
+        </div>
+        <div class="col-12 text-center order-md-1 p-5" data-aos="fade-up" data-aos-duration="3000">
+          <img class="img-fluid mb-4 mb-md-0"
+            src="./assets/img/kisspng-cityscape-skyline-illustration-vector-city-silhouette-5aa2f7cb4582e2.5830158415206297072847.png"
+            alt="img city-skyline" srcset="" class="d-none d-lg-block">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Tarjeta de App "Rick And Morty"-->
+  <footer class="pie-de-pagina text-center text-md-right bg-dark text-white">
+    <div class="container">
+      <p class="m-0 py-3">Copyright © 2021 - Catherine Chávez Morales</p>
+    </div>
+  </footer>
 
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-<script src="./assets/js/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+
 </html>
